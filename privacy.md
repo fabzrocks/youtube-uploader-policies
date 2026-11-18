@@ -26,7 +26,9 @@ The app does not intentionally send Reddit user data, account information, or pr
 
 ## 4. Reddit Data
 
-The app operates within Reddit using the permissions granted to it. It may interact with subreddit information and create posts as authorized by its configuration.
+The app uses Reddit's provided permissions to interact with the subreddit and create posts. When a moderator runs the manual backfill feature, the app checks their Reddit user ID and moderator permissions to verify that they are authorized to use the feature.
+
+This information is used for permission verification and is not sent to MyMemory or used for translation.
 
 ## 5. Third-Party Services
 
