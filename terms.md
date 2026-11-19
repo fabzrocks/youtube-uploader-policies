@@ -1,6 +1,7 @@
+
 # Terms of Service — YouTube Uploader
 
-**Last updated: November 18, 2026**
+Last updated: November 19, 2026
 
 ## 1. About the App
 
@@ -8,16 +9,17 @@ YouTube Uploader is a Reddit application that monitors publicly available videos
 
 ## 2. How the App Works
 
-The app retrieves public video information through the YouTube Data API. It may translate Korean video titles into English using the MyMemory Translation API when an English title is unavailable.
+The app retrieves public video information through the YouTube Data API. It may translate Korean video titles into English using the DeepL API when an English title is unavailable.
 
-The app excludes videos that are 60 seconds or shorter and uses the original upload date, converted to Korea Standard Time, when formatting post titles.
+The app excludes videos that are 60 seconds or shorter from automatic eligibility and uses the original upload date, converted to Korea Standard Time, when formatting post titles.
 
 ## 3. External Services
 
 The app uses the following external services:
 
-- **YouTube Data API:** Retrieves publicly available channel and video information.
-- **MyMemory Translation API:** Translates video titles when necessary.
+- YouTube Data API: Retrieves publicly available channel and video information.
+- DeepL API: Translates video titles when necessary.
+- Reddit Devvit platform: Provides the application environment and Reddit integration.
 
 These services are subject to their own terms and policies.
 
